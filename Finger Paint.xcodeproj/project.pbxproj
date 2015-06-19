@@ -14,6 +14,7 @@
 		5E59D09D1B34A34000476724 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E59D09C1B34A34000476724 /* Images.xcassets */; };
 		5E59D0A01B34A34000476724 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E59D09E1B34A34000476724 /* LaunchScreen.xib */; };
 		5E59D0AC1B34A34000476724 /* Finger_PaintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E59D0AB1B34A34000476724 /* Finger_PaintTests.m */; };
+		5E59D0B71B34A3AF00476724 /* FingerPaint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E59D0B61B34A3AF00476724 /* FingerPaint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5E59D0A51B34A34000476724 /* Finger PaintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finger PaintTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E59D0AA1B34A34000476724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E59D0AB1B34A34000476724 /* Finger_PaintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Finger_PaintTests.m; sourceTree = "<group>"; };
+		5E59D0B51B34A3AF00476724 /* FingerPaint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerPaint.h; sourceTree = "<group>"; };
+		5E59D0B61B34A3AF00476724 /* FingerPaint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerPaint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		5E59D0831B34A34000476724 = {
 			isa = PBXGroup;
 			children = (
+				5E59D0B51B34A3AF00476724 /* FingerPaint.h */,
+				5E59D0B61B34A3AF00476724 /* FingerPaint.m */,
 				5E59D08E1B34A34000476724 /* Finger Paint */,
 				5E59D0A81B34A34000476724 /* Finger PaintTests */,
 				5E59D08D1B34A34000476724 /* Products */,
@@ -222,6 +227,7 @@
 				5E59D0981B34A34000476724 /* ViewController.m in Sources */,
 				5E59D0951B34A34000476724 /* AppDelegate.m in Sources */,
 				5E59D0921B34A34000476724 /* main.m in Sources */,
+				5E59D0B71B34A3AF00476724 /* FingerPaint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
