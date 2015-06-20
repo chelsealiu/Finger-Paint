@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+
+
 @interface ViewController ()
 
 @end
@@ -16,12 +18,52 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+}
+
+
+
+
+
+
+//should make into collection view
+
+- (IBAction)darkGreen:(id)sender {
+    self.drawingView.penColor = [UIColor colorWithRed:0 green:128/255.0 blue:0 alpha:1.0];
+    
+}
+- (IBAction)lightGreen:(id)sender {
+    self.drawingView.penColor = [UIColor greenColor];
+
+}
+- (IBAction)yellow:(id)sender {
+    self.drawingView.penColor = [UIColor yellowColor];
+
+}
+- (IBAction)orange:(id)sender {
+    self.drawingView.penColor = [UIColor orangeColor];
+
+}
+- (IBAction)red:(id)sender {
+    self.drawingView.penColor = [UIColor redColor];
+
+}
+- (IBAction)pink:(id)sender {
+    self.drawingView.penColor = [UIColor magentaColor];
+
+}
+- (IBAction)lightBlue:(id)sender {
+    self.drawingView.penColor = [UIColor cyanColor];
+
+}
+- (IBAction)darkBlue:(id)sender {
+    self.drawingView.penColor = [UIColor blueColor];
+
+
 }
 
 @end

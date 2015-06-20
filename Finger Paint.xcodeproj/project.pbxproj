@@ -15,6 +15,17 @@
 		5E59D0A01B34A34000476724 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E59D09E1B34A34000476724 /* LaunchScreen.xib */; };
 		5E59D0AC1B34A34000476724 /* Finger_PaintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E59D0AB1B34A34000476724 /* Finger_PaintTests.m */; };
 		5E59D0B71B34A3AF00476724 /* FingerPaint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E59D0B61B34A3AF00476724 /* FingerPaint.m */; };
+		5E59D0BB1B34BC8F00476724 /* color_pencils.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E59D0BA1B34BC8F00476724 /* color_pencils.png */; };
+		5E59D0C61B34C26C00476724 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E59D0BC1B34C26C00476724 /* yellow.png */; };
+		5E59D0C71B34C26C00476724 /* brown.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E59D0BD1B34C26C00476724 /* brown.png */; };
+		5E59D0C81B34C26C00476724 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E59D0BE1B34C26C00476724 /* red.png */; };
+		5E59D0C91B34C26C00476724 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E59D0BF1B34C26C00476724 /* green.png */; };
+		5E59D0CA1B34C26C00476724 /* dark_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E59D0C01B34C26C00476724 /* dark_green.png */; };
+		5E59D0CB1B34C26C00476724 /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E59D0C11B34C26C00476724 /* orange.png */; };
+		5E59D0CC1B34C26C00476724 /* darkdark_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E59D0C21B34C26C00476724 /* darkdark_blue.png */; };
+		5E59D0CD1B34C26C00476724 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E59D0C31B34C26C00476724 /* blue.png */; };
+		5E59D0CE1B34C26C00476724 /* dark_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E59D0C41B34C26C00476724 /* dark_blue.png */; };
+		5E59D0CF1B34C26C00476724 /* pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E59D0C51B34C26C00476724 /* pink.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +52,19 @@
 		5E59D0A51B34A34000476724 /* Finger PaintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finger PaintTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E59D0AA1B34A34000476724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E59D0AB1B34A34000476724 /* Finger_PaintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Finger_PaintTests.m; sourceTree = "<group>"; };
-		5E59D0B51B34A3AF00476724 /* FingerPaint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerPaint.h; sourceTree = "<group>"; };
-		5E59D0B61B34A3AF00476724 /* FingerPaint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerPaint.m; sourceTree = "<group>"; };
+		5E59D0B51B34A3AF00476724 /* FingerPaint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FingerPaint.h; path = ../FingerPaint.h; sourceTree = "<group>"; };
+		5E59D0B61B34A3AF00476724 /* FingerPaint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FingerPaint.m; path = ../FingerPaint.m; sourceTree = "<group>"; };
+		5E59D0BA1B34BC8F00476724 /* color_pencils.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_pencils.png; sourceTree = "<group>"; };
+		5E59D0BC1B34C26C00476724 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
+		5E59D0BD1B34C26C00476724 /* brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brown.png; sourceTree = "<group>"; };
+		5E59D0BE1B34C26C00476724 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		5E59D0BF1B34C26C00476724 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		5E59D0C01B34C26C00476724 /* dark_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dark_green.png; sourceTree = "<group>"; };
+		5E59D0C11B34C26C00476724 /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
+		5E59D0C21B34C26C00476724 /* darkdark_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darkdark_blue.png; sourceTree = "<group>"; };
+		5E59D0C31B34C26C00476724 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		5E59D0C41B34C26C00476724 /* dark_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dark_blue.png; sourceTree = "<group>"; };
+		5E59D0C51B34C26C00476724 /* pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pink.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +88,6 @@
 		5E59D0831B34A34000476724 = {
 			isa = PBXGroup;
 			children = (
-				5E59D0B51B34A3AF00476724 /* FingerPaint.h */,
-				5E59D0B61B34A3AF00476724 /* FingerPaint.m */,
 				5E59D08E1B34A34000476724 /* Finger Paint */,
 				5E59D0A81B34A34000476724 /* Finger PaintTests */,
 				5E59D08D1B34A34000476724 /* Products */,
@@ -90,7 +110,20 @@
 				5E59D0941B34A34000476724 /* AppDelegate.m */,
 				5E59D0961B34A34000476724 /* ViewController.h */,
 				5E59D0971B34A34000476724 /* ViewController.m */,
+				5E59D0B51B34A3AF00476724 /* FingerPaint.h */,
+				5E59D0B61B34A3AF00476724 /* FingerPaint.m */,
 				5E59D0991B34A34000476724 /* Main.storyboard */,
+				5E59D0BC1B34C26C00476724 /* yellow.png */,
+				5E59D0BD1B34C26C00476724 /* brown.png */,
+				5E59D0BE1B34C26C00476724 /* red.png */,
+				5E59D0BF1B34C26C00476724 /* green.png */,
+				5E59D0C01B34C26C00476724 /* dark_green.png */,
+				5E59D0C11B34C26C00476724 /* orange.png */,
+				5E59D0C21B34C26C00476724 /* darkdark_blue.png */,
+				5E59D0C31B34C26C00476724 /* blue.png */,
+				5E59D0C41B34C26C00476724 /* dark_blue.png */,
+				5E59D0C51B34C26C00476724 /* pink.png */,
+				5E59D0BA1B34BC8F00476724 /* color_pencils.png */,
 				5E59D09C1B34A34000476724 /* Images.xcassets */,
 				5E59D09E1B34A34000476724 /* LaunchScreen.xib */,
 				5E59D08F1B34A34000476724 /* Supporting Files */,
@@ -204,9 +237,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E59D0BB1B34BC8F00476724 /* color_pencils.png in Resources */,
+				5E59D0CC1B34C26C00476724 /* darkdark_blue.png in Resources */,
+				5E59D0CA1B34C26C00476724 /* dark_green.png in Resources */,
 				5E59D09B1B34A34000476724 /* Main.storyboard in Resources */,
+				5E59D0CB1B34C26C00476724 /* orange.png in Resources */,
+				5E59D0C71B34C26C00476724 /* brown.png in Resources */,
+				5E59D0C61B34C26C00476724 /* yellow.png in Resources */,
+				5E59D0C81B34C26C00476724 /* red.png in Resources */,
+				5E59D0CE1B34C26C00476724 /* dark_blue.png in Resources */,
+				5E59D0CF1B34C26C00476724 /* pink.png in Resources */,
+				5E59D0C91B34C26C00476724 /* green.png in Resources */,
 				5E59D0A01B34A34000476724 /* LaunchScreen.xib in Resources */,
 				5E59D09D1B34A34000476724 /* Images.xcassets in Resources */,
+				5E59D0CD1B34C26C00476724 /* blue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FingerPaint.h"
 
 @interface ViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet FingerPaint *drawingView;
+
 
 
 @end

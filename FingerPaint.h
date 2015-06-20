@@ -10,4 +10,11 @@
 
 @interface FingerPaint : UIView
 
+
+
+@property (nonatomic, strong) UIBezierPath *path;
+@property (strong, nonatomic) UIColor* penColor;
+
+
+
 @end
